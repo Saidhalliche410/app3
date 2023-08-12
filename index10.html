@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap" rel="stylesheet">
+    <style>
+        #main1{
+            border-radius: 20px;
+         position: absolute;
+         width: 300px;
+         height: 300px;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%,-50%);
+         background-color: aqua;
+        }
+       
+        
+        #main2{
+            position: absolute;
+            width: 270px;
+            height: 150px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            background-color: aqua;
+            background-color: azure;
+            text-align: center;
+            border-radius: 10px;
+           }
+           #time{
+            display: flex;
+            text-align: center;
+            align-items: center;
+            margin-left: 60px;
+            width: 50%;
+            height: 70px;
+            color: blue;
+            border:2px solid palevioletred;
+            border-radius: 30px;
+
+           }
+           #settime{
+            font-family: 'Saira Stencil One', cursive;
+            margin-left: 20px;
+         
+           }
+           #data{
+            display: flex;
+            text-align: center;
+            align-items: center;
+            margin-left: 60px;
+            width: 50%;
+            height: 50px;
+            color: cadetblue;
+            border: 2px solid rgb(122, 122, 122);
+            border-radius: 30px;
+
+           }
+           #setdata{
+            font-family: 'Saira Stencil One', cursive;
+            margin-left: 30px;
+           }
+    </style>
+</head>
+<body>
+    <main id="main1">
+        <main id="main2">
+            <article id="time">
+                <h1 id="settime"></h1>
+            </article>
+            <article id="data">
+                <p id="setdata"></p>
+            </article>
+            <br>
+            <br>
+            <article id="color">
+                <input type="color" id="setcolor">
+            </article>
+        </main>
+    </main>
+    <audio id="musique" src="said/musique.m4a" ></audio>
+    <button id="play1">play</button>
+    <button id="stop1">stop</button>
+    <button id="haj">load</button>
+    <button id="fast">fast</button>
+    <button id="slow">slow</button>
+    <button id="zyad">voulume+</button>
+    <button id="na9s">volume-</button>
+
+    <script src="index10.js">
+        
+    </script>
+</body>
+</html>
